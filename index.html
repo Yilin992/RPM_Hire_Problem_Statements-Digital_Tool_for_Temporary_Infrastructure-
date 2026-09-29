@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A simple one-way road simulation." />
+    <title>One Way Road</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>One Way Road</h1>
+      <p>Cars enter every second</p>
+    </header>
+
+    <aside class="stats" aria-live="polite">
+      <span>Time: <strong id="time">00:00</strong></span>
+      <span>Cars: <strong id="car-count">0</strong></span>
+    </aside>
+
+    <main class="road" aria-label="Cars moving upward on a one-way road">
+      <div class="arrow" aria-hidden="true">↑</div>
+    </main>
+  </body>
+</html>
